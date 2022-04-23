@@ -19,5 +19,8 @@ $(document).ready(function(){
     foto2.mouseenter(function(){
         $(this).css("background-color", "pink");
     });
+    foto2.mouseleave(function(){
+        $(this).css("background-color", "white");
+    });
 
 });
